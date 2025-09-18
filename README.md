@@ -1,3 +1,15 @@
+# My Installation
+My workstation setup:
+* Ubuntu 22.04
+* RTX 4060Ti
+* CUDA 12.1
+
+```sh
+python -m pip install -U pip setuptools wheel cmake ninja scikit-build-core
+pip install --index-url https://download.pytorch.org/whl/cu121 torch torchvision torchaudio
+pip install -r requirements.txt 
+```
+
 # TripoSR <a href="https://huggingface.co/stabilityai/TripoSR"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Model_Card-Huggingface-orange"></a> <a href="https://huggingface.co/spaces/stabilityai/TripoSR"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Gradio%20Demo-Huggingface-orange"></a> <a href="https://huggingface.co/papers/2403.02151"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Paper-Huggingface-orange"></a> <a href="https://arxiv.org/abs/2403.02151"><img src="https://img.shields.io/badge/Arxiv-2403.02151-B31B1B.svg"></a> <a href="https://discord.gg/mvS9mCfMnQ"><img src="https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white"></a>
 
 <div align="center">

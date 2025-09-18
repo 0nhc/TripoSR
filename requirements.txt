@@ -10,3 +10,7 @@ imageio[ffmpeg]
 gradio
 xatlas==0.0.9
 moderngl==5.10.0
+onnxruntime==1.22.1
+jinja2
+pyyaml
+typeguard
